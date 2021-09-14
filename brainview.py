@@ -1,8 +1,12 @@
 #!/usr/bin/python
+
+# Brainwave Analyzer
+#
 # Script for plotting the data from NeuroSky Mindwave Mobile EEG Headset
 #  This parser takes brain wave power logs colleted from Mindwave SDK as input and plot the spectral power of waves 
 #  and a spectrogram to visualize the brainwaves (Delta, Theta, Alpha, Beta and Gamma)
-
+#
+# 
 
 import sys, getopt
 import matplotlib.pyplot as plt
