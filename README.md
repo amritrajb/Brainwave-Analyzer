@@ -6,7 +6,8 @@ Brainwave spectral power logs from NeuroSky Mindwave SDK are exported to a file 
 
 # Usage
 ```
-python brainview.py <bwave-power-log>
+git clone https://github.com/amritrajb/Brainwave-Analyzer.git
+python brainview.py bwave-power-log
 ```
 # Plot
 ![Spectrogram](myplot.png)
