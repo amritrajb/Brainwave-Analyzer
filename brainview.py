@@ -111,13 +111,13 @@ def main(argv):
    grid = [delta,theta,alpha,beta,gamma]
    #print(np.size(grid,1))
    grid_plot = ax1.pcolor(grid, cmap='jet')
-   x_label = ['0', '1', '2', '3', '4', '5', '6','7','8']
+   x_label = ['0', '1', '2', '3', '4', '5', '6','7']
    y_label = ['delta', 'theta', 'alpha', 'beta', 'gamma']
    plt.colorbar(grid_plot, ax=[ax0,ax1,ax2])
    plt.sca(ax1)
 
    plt.xticks(np.arange(0, x_size, 60),x_label)
-   plt.yticks(np.arange(0.5, np.size(grid,0)+1,1), y_label)
+   plt.yticks(np.arange(0.5, np.size(grid,0),1), y_label)
    legend = ax0.legend(loc='best', shadow=True, fontsize = 'x-small')
 
    plt.savefig("myplot.png")
